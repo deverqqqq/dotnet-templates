@@ -1,0 +1,61 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "deverqqqq",
+    "classifications": [
+        "ThreeLayer",
+        "WebApi"
+    ],
+    "identity": "deverqqqq.WebApi.ThreeLayer",
+    "name": "WebApi ThreeLayer Template",
+    "description": "WebApi Three Layer Solution Template",
+    "shortName": "webapi-3layer",
+    "sourceName": "Template",
+    "guids": [
+        "353B937D-6D7F-4A7C-9877-FDECFE7ED7BB",
+        "1B7F6882-AA33-4C00-80C5-47B42A870B6D",
+        "28DB96A8-F37F-4039-96BE-8FC0060CBE13",
+        "34541529-F348-4958-B0D8-F2A78497A58E",
+        "16743C52-A75D-4349-907A-D909A6B1D25C",
+        "6C274ED7-D359-44A8-B6F2-932103B1A936",
+        "ED75E499-DE30-4AE7-93A0-0B56BA0BC0B8",
+        "7FCA0F82-CB71-43DC-8170-3C5110A18CCE",
+        "571CFF82-2688-4F30-BCC5-34B22B51DE5D",
+        "B04181AF-E10E-47D7-A35D-A768A9F90C11",
+        "4C68E7A1-0CF9-420E-AF4D-9919358A0FC6",
+        "66680B0C-B523-4472-B0B9-D285C13C6684",
+        "08A010E1-8036-4A96-B6DE-3EC9AE35DA28"
+    ],
+    "tags": {
+        "language": "C#",
+        "type": "solution"
+    },
+    "sources": [
+        {
+            "exclude": [
+                "**/[Bb]in/**",
+                "**/[Oo]bj/**",
+                ".template.config/**/*",
+                "**/*.filelist",
+                "**/*.user",
+                "**/*.lock.json",
+                ".git/**",
+                ".vs/**",
+                ".idea/**"
+            ]
+        }
+    ],
+    "constraints": {
+        "sdk-only": {
+            "type": "host",
+            "args": [
+                {
+                    "hostname": "dotnetcli",
+                    "version": "8.0.*"
+                },
+                {
+                    "hostname": "ide"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "deverqqqq",
+    "classifications": [
+        "Linqpad",
+        "Console"
+    ],
+    "identity": "deverqqqq.FakeLinqpadConsole",
+    "name": "FakeLinqpad template: Console Project",
+    "shortName": "fakeLinqpad",
+    "sourceName": "FakeLinqpadConsole",
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    },
+    "constraints": {
+        "sdk-only": {
+            "type": "host",
+            "args": [
+                {
+                    "hostname": "dotnetcli",
+                    "version": "8.0.*"
+                },
+                {
+                    "hostname": "ide"
+                }
+            ]
+        }
+    }
+}
