@@ -7,6 +7,7 @@
 - 我開發的範本
   - FakeLinqpadConsole: 取代 Linqpad 的專案範本，可以用來做測試和 POC。
   - WebApi-ThreeLayer: 三層架構的 WebApi 範本，需要使用此架構建立 WebApi 服務，可以快速產生大致結構。
+  - myXUnit: 簡單的單元測試專案。
 
 ## 開始
 
